@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1140px;
+}
+
+a {
+  text-decoration: none;
+  padding: 8px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+main {
+  flex: 1;
+}
+
+#page-header {
+  padding: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a i {
+  color: #333;
+}
+
+.content {
+  width: 420px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h2 {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.searchbox {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  position: relative;
+  padding: 1px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 4px 4px -5px;
+}
+
+.searchbox input:hover,
+:focus {
+  box-shadow: rgba(0, 0, 0, 0.4) 0 12px 10px -8px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input {
+  width: 100%;
+  border: 0;
+  padding: 8px 10px;
+}
+
+.icon-search {
+  position: absolute;
+  right: 13px;
+  top: 5px;
+  color: #4487ed;
+}
+
+.btn {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  color: #333;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn:hover {
+  border: 1px solid #ddd;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 40px;
+}
+
+h2 {
+  display: flex;
+}
+
+.word1 {
+  color: #4487ed;
+}
+
+.word2 {
+  color: #ec3c3b;
+}
+
+.word3 {
+  color: #f6bb5a;
+}
+
+.word4 {
+  color: #4ba85e;
+}
+
+footer {
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav a {
+  color: #333 !important;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+}
